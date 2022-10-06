@@ -1,0 +1,19 @@
+1. Type into the Console:
+
+adb devices
+
+2. Type into Console:
+
+adb shell
+
+3. Type Into Console:
+
+pm list packages
+
+4. type Into Console:
+
+pm uninstall --user 0 com.mediatek.factorymode
+
+***5. If the last command doesn't work try***
+
+adb shell pm uninstall -k --user 0 com.mediatek.factorymode
